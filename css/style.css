@@ -1,0 +1,16 @@
+@keyframes width_opacity {
+    from {width: 25px; opacity: 0;}
+    to {width: 475px; opacity: 1;}
+}
+
+#logo {
+    animation-name: width_opacity;
+    animation-delay: 1s;
+    animation-duration: 5s;
+}
+
+body {
+    font-family: 'Poppins', serif;
+    background-image: url('../images/concrete_seamless.png');
+    background-color: #f1f1f1;
+}
