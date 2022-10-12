@@ -107,8 +107,9 @@ header {
     }
     
     .nav_links {
-        flex-flow: row;
-        justify-content: space-evenly;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
 
     .pricing {
@@ -123,4 +124,8 @@ header {
     .gallery, #gallery {
         display: none;
     }
+    .card ul li:nth-child(2)::after {
+        content: "\1F44D";
+    }
+
 } 
