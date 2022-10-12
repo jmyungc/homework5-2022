@@ -71,7 +71,6 @@ header {
 
 @media screen and (min-width: 900px) {
     header {
-        flex-direction: row;
         flex-flow: row wrap;
         justify-content: space-between;
         align-items: center;
